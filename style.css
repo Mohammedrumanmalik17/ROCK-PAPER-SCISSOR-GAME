@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    width: 100%;
+    background-image: url("./mika-baumeister-HUyICL8qbEE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+}
+h1{
+    background-color: black;
+    color:navajowhite;
+    height: 5rem;
+    line-height: 5rem;
+    box-shadow: 10px, 10px 10px rgb(14, 105, 41);
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 5rem;
+    border-radius: 50%;
+
+    
+}
+.choices image{
+    z-index: 100;
+}
+
+.choice:hover{
+    opacity: 0.6;
+    background-color:black;
+
+    cursor: pointer;
+}
+.Score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+     font-size: 1.5rem; 
+     margin-top: 3rem;
+     color:black;
+}
+
+#user-score, #computer-score{
+ 
+    font-size: 3rem;
+}
+.msg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 5rem;
+   
+   
+
+}
+#msg{
+    display: inline;
+    padding: 10px; 
+    background-color: black;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 10px;
+ 
+
+}
+.Refresh-btn{
+    margin-top: 5rem;
+}
+#Refresh-btn{
+    background-color: rgb(105, 14, 87);
+    color: rgb(255, 251, 0);
+    display: inline;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.45rem;
+}
